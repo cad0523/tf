@@ -1,0 +1,25 @@
+2017-07-17 05:30:45.890067: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-07-17 05:30:45.890475: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties:
+name: GeForce GTX 750 Ti
+major: 5 minor: 0 memoryClockRate (GHz) 1.1105
+pciBusID 0000:01:00.0
+Total memory: 1.95GiB
+Free memory: 1.87GiB
+2017-07-17 05:30:45.890522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0
+2017-07-17 05:30:45.890540: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y
+2017-07-17 05:30:45.890573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 750 Ti, pci bus id: 0000:01:00.0)
+2017-07-17 05:30:48.402069: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.05GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:48.615261: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.05GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:48.771034: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.07GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:48.951876: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.14GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:53.523002: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.14GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:53.639185: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.12GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:53.805934: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.07GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:53.881017: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.06GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:54.029153: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.05GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+2017-07-17 05:30:54.086415: W tensorflow/core/common_runtime/bfc_allocator.cc:217] Allocator (GPU_0_bfc) ran out of memory trying to allocate 2.03GiB. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory is available.
+
+real    13m18.636s
+user    7m17.964s
+sys     6m11.308s
+

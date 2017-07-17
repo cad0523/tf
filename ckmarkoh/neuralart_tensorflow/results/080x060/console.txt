@@ -1,0 +1,15 @@
+2017-07-17 05:44:41.093258: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-07-17 05:44:41.093619: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties:
+name: GeForce GTX 750 Ti
+major: 5 minor: 0 memoryClockRate (GHz) 1.1105
+pciBusID 0000:01:00.0
+Total memory: 1.95GiB
+Free memory: 1.87GiB
+2017-07-17 05:44:41.093653: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0
+2017-07-17 05:44:41.093667: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y
+2017-07-17 05:44:41.093704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 750 Ti, pci bus id: 0000:01:00.0)
+
+real    5m14.830s
+user    3m18.768s
+sys     2m13.796s
+
